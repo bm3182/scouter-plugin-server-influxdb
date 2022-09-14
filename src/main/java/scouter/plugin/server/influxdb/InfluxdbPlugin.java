@@ -63,7 +63,7 @@ public class InfluxdbPlugin {
     String retentionPolicy = conf.getValue(ext_plugin_influxdb_http_retention_policy, "autogen");
     String id = conf.getValue(ext_plugin_influxdb_id, "root");
     String password = conf.getValue(ext_plugin_influxdb_password, "root");
-    String dbName = conf.getValue(ext_plugin_influxdb_dbName, "scouterCounter");
+    String dbName = conf.getValue(ext_plugin_influxdb_dbName, "scouter");
 
     InfluxDB influx = null;
 
